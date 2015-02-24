@@ -4,5 +4,5 @@
 
 > – as recounted by Aristotle, Physics VI:9, 239b15
 
-Two running target. Should we shoot each, or wait when they will be near each other.
-But will be they near? We need an experiment.
+Our sentry guns have spotted two running targets. Should we shoot them now, or wait when they will be closer together?
+We need to develop a protocol to handle this scenario.

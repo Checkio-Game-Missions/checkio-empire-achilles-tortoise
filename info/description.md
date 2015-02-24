@@ -1,6 +1,5 @@
-We asked two robots for this purpose:
+We've asked two robots to help us simulate this situation:
 Achilleborg (A1 -- fast agile prototype) and Tortoimenator (T2 -- heavy slow cyborg).
-
 
 A1 is faster than T2, so it has a **X** seconds head start on A2.
 For **X** seconds T2 will move at **t2_speed*X** metres.
