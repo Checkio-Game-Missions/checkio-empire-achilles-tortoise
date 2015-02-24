@@ -4,10 +4,10 @@
 
 > – as recounted by Aristotle, Physics VI:9, 239b15
 
-Two running target. Should we shoot each, or wait when they will be near each other.
-But will be they near? We need an experiment.
+Our sentry guns have spotted two running targets. Should we shoot them now, or wait when they will be closer together?
+We need to develop a protocol to handle this scenario.
 
-We asked two robots for this purpose:
+We've asked two robots to help us simulate this situation:
 Achilleborg (A1 -- fast agile prototype) and Tortoimenator (T2 -- heavy slow cyborg).
 
 
@@ -37,8 +37,7 @@ chase(10, 1, 10) == 11.11111111
 
 **How it is used:**
 
-Let's return to school and remember our basic math principles.
-Sometimes simple arithmetic allows us to resolve difficult paradox problems easily.
+This mission serves as a reminder that sometimes simple arithmetic allows us to resolve difficult paradoxical problems easily.
 
 **Precondition:**
 ```python
