@@ -1,6 +1,6 @@
 from checkio_referee import RefereeBase
 from checkio_referee.covercode import py_unwrap_args
-from checkio_referee.comparators import float_compare
+from checkio_referee.checkers import float_compare
 
 import settings
 import settings_env
@@ -18,6 +18,5 @@ class Referee(RefereeBase):
         "javascript": None
     }
 
-    def result_comparator(self, answer, result):
-        return float_compare(answer, result, 8)
-
+    def result_checker(self, test_data, result):
+        return float_compare(test_data.get["answer"], result, 8)
