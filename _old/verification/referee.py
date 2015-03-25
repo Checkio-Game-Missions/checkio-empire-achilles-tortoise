@@ -42,6 +42,6 @@ api.add_listener(
             'python-27': cover_codes.unwrap_args,  # or None
             'python-3': cover_codes.unwrap_args
         },
-        function_name="chase",
+        DEFAULT_FUNCTION_NAME="chase",
         checker=checkers.float_comparison(8)
     ).on_ready)

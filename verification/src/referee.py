@@ -12,9 +12,9 @@ Validator.PRECISION = 8
 
 class Referee(RefereeBase):
     TESTS = TESTS
-    EXECUTABLE_PATH = settings.EXECUTABLE_PATH
-    CURRENT_ENV = settings_env.CURRENT_ENV
-    FUNCTION_NAME = "chase"
+    ENVIRONMENTS = settings_env.ENVIRONMENTS
+
+    DEFAULT_FUNCTION_NAME = "chase"
     VALIDATOR = Validator
     CALLED_REPRESENTATIONS = {
         "python_3": representations.unwrap_arg_representation,
