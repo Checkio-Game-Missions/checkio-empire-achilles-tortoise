@@ -8,7 +8,22 @@ But T2 is moving and next step for A1 is to reach the next point and so on to in
 The paradox is correct in theory,
 but in practice A1 easily outruns T2. Hm... maybe we can calculate when A1 will catch up to T2.
 
-![A1-T2](A1-T2.png)
+```
+T2 - 3m/s
+A1 - 6m/s
+
+2s
+|------------> T2 - 6m
+|> A1 - 0m
+
+3s
+|------------------> T2 - 9m
+|------------> A1 - 6m
+
+3.5s
+|---------------------> T2 - 10.5m
+|------------------> A1 - 9m
+```
 
 You are given A1 and T2’s speed in m/s as well as the length of the advantage T2 has in seconds.
 Try to count the time when from when A1 come abreast with T2 (count from T2 start).
