@@ -1,0 +1,19 @@
+"use strict";
+
+function chase(a1Speed, t2Speed, advantage) {
+    return 0;
+}
+
+var assert = require("assert");
+
+if (!global.is_checking) {
+    // These "asserts" using only for self-checking and not necessary for auto-testing
+    var almostEqual = function (checked, correct, significantDigits) {
+        significantDigits = significantDigits || 2;
+        var precision = Math.power(0.1, significantDigits);
+        return Math.abs(correct - checked) < precision;
+    };
+
+    assert(almostEqual(chase(6, 3, 2), 4, 8), "example");
+    assert(almostEqual(chase(10, 1, 10), 11.111111111, 8), "long number");
+}

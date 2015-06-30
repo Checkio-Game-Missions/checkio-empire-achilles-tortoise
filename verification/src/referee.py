@@ -1,5 +1,5 @@
 from checkio_referee import RefereeBase
-from checkio_referee import covercodes, validators, representations
+from checkio_referee import covercodes, validators, representations, ENV_NAME
 
 
 import settings_env
@@ -17,12 +17,10 @@ class Referee(RefereeBase):
     DEFAULT_FUNCTION_NAME = "chase"
     VALIDATOR = Validator
     CALLED_REPRESENTATIONS = {
-        "python_3": representations.unwrap_arg_representation,
-        "python_2": representations.unwrap_arg_representation,
-        "javascript": representations.unwrap_arg_representation
+        ENV_NAME.PYTHON: representations.unwrap_arg_representation,
+        ENV_NAME.JS_NODE: representations.unwrap_arg_representation
     }
     ENV_COVERCODE = {
-        "python_2": covercodes.py_unwrap_args,
-        "python_3": covercodes.py_unwrap_args,
-        "javascript": None
+        ENV_NAME.PYTHON: covercodes.js_unwrap_args,
+        ENV_NAME.JS_NODE: covercodes.py_unwrap_args,
     }
