@@ -1,7 +1,7 @@
 We've asked two robots to help us simulate this situation:
 Achilleborg (A1 -- fast agile prototype) and Tortoimenator (T2 -- heavy slow cyborg).
 
-A1 is faster than T2, so it has a **X** seconds head start on A2.
+A1 is faster than T2, so it has a **X** seconds head start on A1.
 For **X** seconds T2 will move at **t2_speed\*X** metres.
 So A1 must first reach the point whence T2 already reached.
 But T2 is moving and next step for A1 is to reach the next point and so on to infinity.
