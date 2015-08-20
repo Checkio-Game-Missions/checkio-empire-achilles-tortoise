@@ -16,4 +16,5 @@ if (!global.is_checking) {
 
     assert(almostEqual(chase(6, 3, 2), 4, 8), "example");
     assert(almostEqual(chase(10, 1, 10), 11.111111111, 8), "long number");
+    console.log("Now that you're finished, hit the 'Check' button to review your code and earn sweet rewards!");
 }
