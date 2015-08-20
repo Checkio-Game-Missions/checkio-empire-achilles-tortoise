@@ -10,3 +10,4 @@ if __name__ == '__main__':
     assert almost_equal(chase(6, 3, 2), 4, 8), "example"
     assert almost_equal(chase(10, 1, 10), 11.111111111, 8), "long number"
 
+    print("All set? Click 'Check' to review your code and earn rewards!")
